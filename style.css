@@ -1,0 +1,47 @@
+table,
+th,
+td {
+    border: 1px solid gray;
+}
+
+th,
+td {
+    padding: 5px 10px;
+    text-align: center;
+}
+
+thead>tr {
+    background-color: blue !important;
+    color: aliceblue;
+}
+
+caption {
+    background-color: cyan;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+td:first-child {
+    font-weight: 700;
+}
+
+tr:nth-child(2n) {
+    background-color: lightgrey;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+body {
+    font-size: 1.25 rem;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+}

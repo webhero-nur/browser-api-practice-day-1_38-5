@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-4 : Browser API Practice (Day-1)</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+
+<body>
+    <section>
+        <form action="">
+            <div class="form-heading">Please Contact me</div>
+            <p>Name
+                <br>
+                <input type="text" id="name-input-field" placeholder="Full Name">
+                <button class="btn-design" onclick="deleteFromLS('name')">Delete Name</button>
+                <button class="btn-design" onclick="setToLS('name')">Send Name</button>
+            </p>
+            <p>Email
+                <br>
+                <input type="email" id="email-input-field" placeholder="Contact Mail Address">
+                <button class="btn-design" onclick="deleteFromLS('email')">Delete Email</button>
+                <button class="btn-design" onclick="setToLS('email')">Send Email</button>
+            </p>
+            <p>Message
+                <br>
+                <input type="text" id="msg-input-field" placeholder="Write something about yourself">
+                <button class="btn-design" onclick="deleteFromLS('message')">Delete Message</button>
+                <button class="btn-design" onclick="setToLS('message')">Send Message</button>
+            </p>
+            <button class="reset-btn" onclick="clearLS()">Reset</button>
+        </form>
+    </section>
+    <script src="js/task-4.js"></script>
+</body>
+
+</html>

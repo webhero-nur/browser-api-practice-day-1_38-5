@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-1 : Browser API Practice (Day-1)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <a href="index.html">Task-1 : Browser API Practice (Day-1)</a>
+    <a href="index2.html">Task-2 : Browser API Practice (Day-1)</a>
+    <a href="index3.html">Task-3 : Browser API Practice (Day-1)</a>
+    <br>
+    <br>
+
+    <button onclick="promptFunction()">Prompt Action</button>
+    <br>
+    <br>
+    <br>
+    <!-- 3. -->
+    <div style="display: flex;">
+        <strong>Cookies: </strong>
+        <p style="padding-left: 10px;">Cookies are text files with small pieces of data. It can be
+            username,
+            password or other
+            authentication type tokens. It is used to identify a user from a computer to improve browing experience. It
+            is created by the server upon the username or password given to the server. Data in cookies labeled with an
+            unique ID by which server knows what information specificially to be served.</p>
+    </div>
+    <br>
+    <br>
+    <!-- 4. -->
+    <table>
+        <caption>localStorage vs sessionStorage</caption>
+        <thead>
+            <tr>
+                <th></th>
+                <th>localStorage</th>
+                <th>sessionStorage</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Expires</td>
+                <td>Never</td>
+                <td>On tab close</td>
+            </tr>
+            <tr>
+                <td>Capacity</td>
+                <td>10mb</td>
+                <td>5mb</td>
+            </tr>
+            <tr>
+                <td>Working Area</td>
+                <td>within the browser</td>
+                <td>within the specific page / tab</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <br>
+    <!-- 5. -->
+    <table>
+        <caption>cookies vs localStorage vs sessionStorage</caption>
+        <thead>
+            <tr>
+                <th></th>
+                <th>cookies</th>
+                <th>localStorage</th>
+                <th>sessionStorage</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Expires</td>
+                <td>Manually set</td>
+                <td>Never</td>
+                <td>On tab close</td>
+            </tr>
+            <tr>
+                <td>Capacity</td>
+                <td>4kb</td>
+                <td>10mb</td>
+                <td>5mb</td>
+            </tr>
+            <tr>
+                <td>Storage Location</td>
+                <td>Browser and server</td>
+                <td colspan="2">Browser only</td>
+            </tr>
+            <tr>
+                <td>Sent with request</td>
+                <td>Yes</td>
+                <td colspan="2">No</td>
+            </tr>
+            <tr>
+                <td>Support</td>
+                <td>HTML 4 / HTML 5</td>
+                <td colspan="2">HTML 5</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <br>
+    <!-- 7. -->
+    <div>
+        <strong>4 asynchronous things in JS</strong>
+        <ul>
+            <li>fetch()</li>
+            <li>setTimeout()</li>
+            <li>setInterval()</li>
+            <li>getUserMedia()</li>
+            <li>showOpenFilePicker()</li>
+        </ul>
+    </div>
+
+    <script src="js/task-1.js"></script>
+</body>
+
+</html>
